@@ -6,6 +6,7 @@ import SkillsSection from "@/sections/SkillsSection";
 import ExperienceSection from "@/sections/ExperienceSection";
 import ProjectsSection from "@/sections/ProjectsSection";
 import EducationSection from "@/sections/EducationSection";
+import GallerySection from "@/sections/GallerySection";
 import ContactSection from "@/sections/ContactSection";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
         <ExperienceSection />
         <ProjectsSection />
         <EducationSection />
+        <GallerySection />
         <ContactSection />
       </main>
       <Footer />
