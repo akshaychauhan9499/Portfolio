@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# System files
+*.tar.gz
+
+# Vite config (optional)
+vite.config.ts.*
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Server files (optional if dynamically built)
+server/public/
