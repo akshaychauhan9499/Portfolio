@@ -169,7 +169,7 @@ const ContactSection = () => {
                       </div>
                       <div>
                         <p className="text-sm text-muted-foreground mb-1">Email</p>
-                        <p className="font-medium">akshay.chauhan@example.com</p>
+                        <p className="font-medium">akshay.chauhan0904@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-start">
@@ -178,7 +178,7 @@ const ContactSection = () => {
                       </div>
                       <div>
                         <p className="text-sm text-muted-foreground mb-1">Phone</p>
-                        <p className="font-medium">+91 98765 43210</p>
+                        <p className="font-medium">+91 97117 73629</p>
                       </div>
                     </div>
                     <div className="flex items-start">
@@ -187,7 +187,7 @@ const ContactSection = () => {
                       </div>
                       <div>
                         <p className="text-sm text-muted-foreground mb-1">Location</p>
-                        <p className="font-medium">New Delhi, India</p>
+                        <p className="font-medium">Gurgaon, India</p>
                       </div>
                     </div>
                   </div>
@@ -197,7 +197,7 @@ const ContactSection = () => {
                   <h3 className="text-xl font-semibold mb-6">Follow Me</h3>
                   <div className="flex space-x-4">
                     <a
-                      href="https://github.com/"
+                      href="https://github.com/akshaychauhan9499/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-700 flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors duration-200"
@@ -206,7 +206,7 @@ const ContactSection = () => {
                       <span className="sr-only">GitHub</span>
                     </a>
                     <a
-                      href="https://linkedin.com/"
+                      href="https://www.linkedin.com/in/chauhanakshay9499/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-700 flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors duration-200"

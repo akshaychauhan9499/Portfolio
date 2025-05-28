@@ -2,6 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
+import profileAc from "@/Assets/images/profile-AC.jpeg";
 
 const HeroSection = () => {
   const handleDownloadResume = () => {
@@ -10,7 +11,10 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center pt-16 section-transition">
+    <section
+      id="home"
+      className="min-h-screen flex items-center pt-16 section-transition"
+    >
       <div className="container mx-auto px-6 py-12 md:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -26,8 +30,8 @@ const HeroSection = () => {
               Software Developer
             </h2>
             <p className="text-lg mb-8 max-w-lg">
-              I build modern web applications with React.js, integrate APIs, and develop
-              software solutions that solve real-world problems.
+              I build modern web applications with React.js, integrate APIs, and
+              develop software solutions that solve real-world problems.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild>
@@ -58,7 +62,7 @@ const HeroSection = () => {
               </a>
             </div>
           </motion.div>
-          <motion.div 
+          {/* <motion.div 
             className="flex justify-center md:justify-end"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -66,12 +70,29 @@ const HeroSection = () => {
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop&q=80"
+                src={profileAc}
                 alt="Akshay Chauhan"
                 className="w-full h-full object-cover"
               />
             </div>
-          </motion.div>
+          </motion.div> */}
+<motion.div 
+  className="flex justify-center md:justify-end"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 0.6, delay: 0.2 }}
+>
+  <div className="relative w-64 h-64 md:w-80 md:h-80">
+    <div className="absolute inset-0 rounded-full border-4 border-primary overflow-hidden shadow-lg">
+      <img
+        src={profileAc}
+        alt="Akshay Chauhan"
+        className="w-full h-full object-cover"
+        style={{ objectPosition: 'center top' }} // Adjust this if needed
+      />
+    </div>
+  </div>
+</motion.div>
         </div>
       </div>
     </section>

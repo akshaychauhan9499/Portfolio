@@ -46,8 +46,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
 AKSHAY CHAUHAN
 Software Developer
 
-Contact: akshay.chauhan@example.com
-Phone: +91 98765 43210
+Contact: akshay.chauhan0904@gmail.com
+Phone: +91 97117 73629S
 Location: New Delhi, India
 
 EXPERIENCE
