@@ -85,6 +85,8 @@ import { fileURLToPath as fileURLToPath2 } from "url";
 var __filename2 = fileURLToPath2(import.meta.url);
 var __dirname2 = dirname2(__filename2);
 var vite_config_default = defineConfig({
+  base: "/Portfolio/",
+  // 👈 Important for GitHub Pages
   plugins: [
     react(),
     runtimeErrorOverlay(),
@@ -104,7 +106,8 @@ var vite_config_default = defineConfig({
   },
   root: path2.resolve(__dirname2, "client"),
   build: {
-    outDir: path2.resolve(__dirname2, "dist/public"),
+    outDir: path2.resolve(__dirname2, "dist"),
+    // ✅ Output to dist/, not dist/public
     emptyOutDir: true
   }
 });
