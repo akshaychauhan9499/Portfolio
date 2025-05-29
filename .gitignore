@@ -21,9 +21,6 @@ Thumbs.db
 # System files
 *.tar.gz
 
-# Vite config (optional)
-vite.config.ts.*
-
 # Env files
 .env
 .env.local
