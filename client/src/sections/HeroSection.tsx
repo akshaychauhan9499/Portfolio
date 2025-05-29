@@ -43,7 +43,7 @@ const HeroSection = () => {
             </div>
             <div className="flex space-x-4 mt-8">
               <a
-                href="https://github.com/"
+                href="https://github.com/akshaychauhan9499"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200"
@@ -52,7 +52,7 @@ const HeroSection = () => {
                 <span className="sr-only">GitHub</span>
               </a>
               <a
-                href="https://linkedin.com/"
+                href="https://www.linkedin.com/in/chauhanakshay9499/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200"
